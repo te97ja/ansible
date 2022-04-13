@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+    - name: copy_files
+      copy:
+        src: /home/ubuntu/facto.sh
+        dest: /home/ubuntu
+    - name: permission
+      file:
+        path: /home/ubuntu/facto.sh
+        mode: 0777
+        owner: ubuntu
+        group: ubuntu

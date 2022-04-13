@@ -1,0 +1,5 @@
+welcome to devops 
+copy command - used to copy a file or folder from source to destination
+move command - used to rename a file or directory and also to move from source to destination
+cut - used to cut only column wise
+awk - to cut both column and row wise

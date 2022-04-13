@@ -1,0 +1,678 @@
+    1  exit
+    2  sudo su -
+    3  ls
+    4  sudo su -
+    5  sudo vi /etc/ssh/sshd_config
+    6  ssh sharath2@172.31.88.158
+    7  ssh sharath1@172.31.88.158
+    8  sudo su -
+    9  ls
+   10  cat file1
+   11  exit
+   12  ls
+   13  exit
+   14  ls -l
+   15  touch file1
+   16  history
+   17  history > file1
+   18  sudo apt install
+   19  vi /etc/group
+   20  ls
+   21  ls -a
+   22  cd .ssh
+   23  ls 
+   24  cat authorized_keys
+   25  cat known_hosts
+   26  cd ..
+   27  ls .ssh
+   28  cd authorized_keys
+   29  cs .ssh
+   30  cd .ssh
+   31  ls
+   32  cat known_hosts
+   33  cd ..
+   34  cd .ssh
+   35  ls
+   36  cat authorized_keys
+   37  cat known_hosts
+   38  cd ..
+   39  exit
+   40  ls
+   41  exit
+   42  ssh sharath1@172.31.88.158
+   43  ssh ubuntu@172.31.88.158
+   44  sudo su -
+   45  ssh ubuntu@172.31.88.158
+   46  cd .ssh
+   47  ls
+   48  cat known_hosts
+   49  cd ..
+   50  ls -a
+   51  cd .ssh
+   52  ls
+   53  cat authorized_keys
+   54  cat known_hosts
+   55  cd ..
+   56  ssh ubuntu@ 
+   57  ssh ubuntu@  
+   58  ssh ubuntu@172.31.88.158
+   59  ls
+   60  ssh -i key ubuntu@172.31.88.158
+   61  sudo su -
+   62  exit
+   63  cd .ssh
+   64  ls
+   65  cat authorized_keys
+   66  vi authorized_keys
+   67  cd ..
+   68  sudo su -
+   69  cd .ssh
+   70  ls
+   71  cd ..
+   72  ssh-keygen
+   73  cd .ssh
+   74  ls
+   75  cat id_rsa.pub
+   76  cd ..
+   77  ssh ubuntu@172.31.93.183
+   78  ls
+   79  mkdir folder1 folder2 folder3
+   80  mkdir -p folder1
+   81  ls
+   82  mkdir folder1
+   83  mkdir -p folder1
+   84  ls
+   85  cat file1
+   86  touch folder1/file2
+   87  vi folder1//file2
+   88  vi file1
+   89  vi table1
+   90  ls
+   91  cat key
+   92  cat file1
+   93  scp file1 ubuntu@ip-172-31-88-158
+   94  ls
+   95  ls -l
+   96  cat ubuntu@ip-172-31-88-158
+   97  cat file1
+   98  mv file1 command
+   99  ls -l
+  100  rm ubuntu@ip-172-31-88-158
+  101  ls -l
+  102  scp file1 ubuntu@172.31.88.158
+  103  scp file1 ubuntu@172.31.88.158:/home/ubuntu/
+  104  scp hello ubuntu@172.31.88.158:/home/ubuntu/
+  105  exit
+  106  ls
+  107  scp fil1 ubuntu@172.31.20.255:/home/ubuntu/
+  108  ls
+  109  ls -l
+  110  su - sharath1
+  111  ls -l
+  112  cat table1
+  113  sort table1
+  114  sort -r table1
+  115  sort -n table1
+  116  sort -nr table1
+  117  sort -k2 -nr table1
+  118  sort -k2 -n table1
+  119  sort -k2 table1
+  120  sort -k2 -r table1
+  121  ls -l
+  122  ls -l xargs
+  123  xargs ls -l
+  124  ls -l | xargs  
+  125  ls -l | xargs wc -l
+  126  ls -l | xargs | wc -l
+  127  ls -l | xargs | wc -w
+  128  ls
+  129  ls | xargs | wc -w
+  130  ls | xargs 
+  131  ls
+  132  ls | xargs | sed -i '1d' 
+  133  find . -type f -iname -empty
+  134  cat file1
+  135  touch fil1 fil2 fil3
+  136  ls
+  137  find . -type f -iname -empty
+  138  find . -type f -empty
+  139  cd folder1
+  140  touch fi1 fi2 fi3
+  141  ls
+  142  find . -type f -empty
+  143  find . -type f -empty | xargs | rm -rf
+  144  find . -type f -empty | xargs rm -rf
+  145  ls
+  146  ls -l
+  147  cd ..
+  148  ls -l
+  149  find . -type f -empty | xargs
+  150  find . -type f -empty 
+  151  exit
+  152  ls -l
+  153  cat file1
+  154  su - sharath1
+  155  ls -l
+  156  rm fil1 fil2 fil3
+  157  ls -l
+  158  vi display.sh
+  159  cat display.sh
+  160  sh display.sh
+  161  vi display.sh
+  162  sh display.sh
+  163  vi display.sh
+  164  sh display.sh
+  165  vi displayvalue.sh
+  166  cat displayvalue.sh
+  167  sh displayvalue.sh
+  168  sh displayvalue.sh sharath bcci
+  169  sh displayvalue.sh 
+  170  vi displayvalue.sh
+  171  sh displayvalue.sh 
+  172  sh displayvalue.sh sharath bcci
+  173  vi displayvalue.sh
+  174  sh displayvalue.sh 
+  175  sh displayvalue.sh sharath
+  176  sh displayvalue.sh sharath bcci
+  177  sh displayvalue.sh sharath bcci ksca
+  178  vi displayvalue.sh
+  179  sh displayvalue.sh sharath bcci ksca
+  180  sh displayvalue.sh 
+  181  sh displayvalue.sh sharath
+  182  sh displayvalue.sh sharath bcci
+  183  sh displayvalue.sh sharath bcci ksca
+  184  vi displayvalue.sh
+  185  sh displayvalue.sh 
+  186  sh displayvalue.sh sharath bcci ksca
+  187  sh displayvalue.sh sharath bcci umpire
+  188  vi displayvalue.sh
+  189  sh displayvalue.sh
+  190  sh displayvalue.sh sharath
+  191  vi displayvalue.sh
+  192  sh displayvalue.sh
+  193  sh displayvalue.sh abc efg xyz lmn
+  194  echo "$?"
+  195  ls -l
+  196  cat displayvalue.sh
+  197  exit
+  198  vi equal.sh
+  199  sh equal.sh
+  200  cat equal.sh
+  201  ls -l
+  202  exit
+  203  ls -l
+  204  sh display.sh
+  205  sh displayvalue.sh
+  206  ls -l
+  207  vi equal.sh
+  208  sh equal.sh
+  209  vi equal2.sh
+  210  ls
+  211  vi equal2.sh
+  212  sh equal2.sh
+  213  cat equal2.sh
+  214  ls -l
+  215  rm command
+  216  vi biggest.sh
+  217  sh bigggest.sh
+  218  sh biggest.sh
+  219  vi biggest.sh
+  220  sh biggest.sh
+  221  vi biggest.sh
+  222  sh biggest.sh
+  223  vi biggest.sh
+  224  sh biggest.sh
+  225  cat biggest.sh
+  226  sh biggest.sh
+  227  cat biggest.sh
+  228  vi biggest.sh
+  229  ls -l
+  230  cat equal2.sh
+  231  vi equal2.sh
+  232  sh equal2.sh
+  233  cat equal2.sh
+  234  sh equal2.sh
+  235  clear
+  236  ls -l
+  237  cat biggest.sh
+  238  history > hisfile
+  239  history
+  240  clear
+  241  vi name.sh
+  242  sh name.sh
+  243  ls -l
+  244  sh name.sh
+  245  ln file1 link1
+  246  ln folder1 link2
+  247  ls -l
+  248  rm link1
+  249  ls -l
+  250  ln -s file1 link1
+  251  ln -s folder1 link2
+  252  ls -l
+  253  sh name.sh
+  254  ln -s file1 111
+  255  ls -l
+  256  rm link1
+  257  ls -l
+  258  sh name.sh
+  259  vi name.sh
+  260  sh name.sh
+  261  folder1
+  262  sh name.sh
+  263  vi name.sh
+  264  sh name.sh
+  265  history > hisfile
+  266  ls -l
+  267  ls -lt
+  268  vi sum.sh
+  269  sh sum.sh
+  270  vi sum.sh
+  271  sh sum.sh
+  272  vi sum.sh
+  273  sh sum.sh
+  274  vi sum.sh
+  275  sh sum.sh
+  276  vi sum.sh
+  277  sh sum.sh
+  278  cat sum.sh
+  279  vi sum.sh
+  280  sh sum.sh
+  281  vi sum.sh
+  282  sh sum.sh
+  283  vi sum.sh
+  284  sh sum.sh
+  285  vi sum.sh
+  286  sh sum.sh
+  287  vi sum.sh
+  288  sh sum.sh
+  289  vi sum.sh
+  290  sh sum.sh
+  291  vi sum.sh
+  292  sh sum.sh
+  293  cat sum.sh
+  294  vi sum.sh
+  295  sh sum.sh
+  296  cat sum.sh
+  297  ls -l
+  298  history > hisfile
+  299  df -h
+  300  exit
+  301  ls -a
+  302  ls -l
+  303  vi reverse.sh
+  304  ls -l
+  305  vi reverse.sh
+  306  cat reverse.sh
+  307  sh reverse.sh
+  308  ls -l
+  309  vi factorial.sh
+  310  sh factorial.sh
+  311  vi factorial.sh
+  312  sh factorial.sh
+  313  vi factorial.sh
+  314  sh factorial.sh
+  315  vi factorial.sh
+  316  sh factorial.sh
+  317  vi factorial.sh
+  318  sh factorial.sh
+  319  vi factorial.sh
+  320  sh factorial.sh
+  321  vi factorial.sh
+  322  sh factorial.sh
+  323  vi factorial.sh
+  324  sh factorial.sh
+  325  vi factorial.sh
+  326  sh factorial.sh
+  327  clear
+  328  sh factorial.sh
+  329  exit
+  330  ls -l
+  331  vi sum.sh
+  332  sh sum.sh
+  333  cat sum.sh
+  334  sh sum.sh
+  335  vi sum.sh
+  336  sh sum.sh
+  337  vi sum.sh
+  338  sh sum.sh
+  339  vi sum.sh
+  340  sh sum.sh
+  341  ls -l
+  342  vi factorial.sh
+  343  sh factorial.sh
+  344  vi factorial.sh
+  345  sh factorial.sh
+  346  vi factorial.sh
+  347  sh factorial.sh
+  348  vi factorial.sh
+  349  sh factorial.sh
+  350  clear
+  351  vi factorial.sh
+  352  sh factorial.sh
+  353  vi factorial.sh
+  354  sh factorial.sh
+  355  vi factorial.sh
+  356  sh factorial.sh
+  357  vi factorial.sh
+  358  sh factorial.sh
+  359  ls -l
+  360  vi count.sh
+  361  sh count.sh
+  362  ls -l
+  363  cat file1
+  364  sh count.sh
+  365  vi file1
+  366  sh count.sh
+  367  cat file1
+  368  sh count.sh
+  369  cat count.sh
+  370  mv count.sh countc.sh
+  371  cp countc.sh countw.sh
+  372  vi countw.sh
+  373  sh countw.sh
+  374  vi countw.sh
+  375  sh countw.sh
+  376  ls -l
+  377  ls -lt
+  378  vi reverse.sh
+  379  ls -l
+  380  sh reverse.sh
+  381  cat reverse.sh
+  382  vi reverse.sh
+  383  sh reverse.sh
+  384  ls -l
+  385  cat file2
+  386  sh reverse.sh
+  387  vi reverse.sh
+  388  sh reverse.sh
+  389  vi reverse.sh
+  390  sh reverse.sh
+  391  cat file2
+  392  ls -a
+  393  rm .reverse.sh.swp
+  394  vi reverse.sh
+  395  sh reverse.sh
+  396  exit
+  397  vi revstr.sh
+  398  ls -a
+  399  rm .revstr.sh.swp
+  400  ls /etc/postfix/sasl
+  401  ls /etc/postfix/sasl/
+  402  vim /etc/postfix/sasl/sasl_passwd
+  403  ls 
+  404  ls -a
+  405  sudo vim /etc/postfix/sasl/sasl_passwd
+  406  sudo postmap /etc/postfix/sasl/sasl_passwd
+  407  ls /etc/postfix/sasl/
+  408  sudo chown root:root /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
+  409  sudo chmod 0600 /etc/postfix/sasl/sasl_passwd /etc/postfix/sasl/sasl_passwd.db
+  410  sudo vim /etc/postfix/main.cf
+  411  ls /etc/ssl/certs/ca-certificates.crt
+  412  sudo systemct1 restart postfix
+  413  sendmail shamanur1@gmail.com
+  414  crontab -e
+  415  vi diskspace.sh
+  416  sh diskspace.sh
+  417  ls -l
+  418  vi diskspace.sh
+  419  sh diskspace.sh
+  420  vi diskspace.sh
+  421  sh diskspace.sh
+  422  vi diskspace.sh
+  423  sh diskspace.sh
+  424  cat diskspace.sh
+  425  vi diskspace.sh
+  426  sh diskspace.sh
+  427  vi diskspace.sh
+  428  sh diskspace.sh
+  429  vi diskspace.sh
+  430  sh diskspace.sh
+  431  vi diskspace.sh
+  432  sh diskspace.sh
+  433  sudo apt install mailtuils
+  434  vi diskspace.sh
+  435  sh diskspace.sh
+  436  sudo apt install mailtuils
+  437  sh diskspace.sh
+  438  sudo apt install mailutils
+  439  vi diskspace.sh
+  440  sh diskspace.sh
+  441  cat diskspace.sh
+  442  history
+  443  history > hisfile
+  444  sudo vim /etc/postfix/main.cf
+  445  cat hisfile
+  446  ls -l
+  447  mkdir shellscripts
+  448  mv biggest.sh shellscripts
+  449  mv countc.sh shellscripts
+  450  mv countw.sh shellscripts
+  451  mv diskspace.sh shellscripts
+  452  mv display.sh shellscripts
+  453  mv displayvalue.sh shellscripts
+  454  mv equal.sh shellscripts
+  455  mv equal2.sh shellscripts
+  456  mv factorial.sh shellscripts
+  457  mv name.sh shellscripts
+  458  mv reverse.sh shellscripts
+  459  mv sum.sh shellscripts
+  460  ls -l
+  461  ls -l shellscripts
+  462  vi table1
+  463  vi age.sh
+  464  sh age.sh
+  465  cat table1
+  466  ls /etc/ssl/certs/ca-certificates.crt
+  467  sendmail shamanur1@gmail.com
+  468  vi age.sh
+  469  sh age.sh
+  470  cat table1
+  471  ls -l
+  472  mv age.sh shellscripts
+  473  ls -l shellscripts
+  474  exit
+  475  ls -l
+  476  df -h .
+  477  exit
+  478  cd shellscripts.sh
+  479  ls -l
+  480  cd shellscripts
+  481  vi arraysum.sh
+  482  sh arraysum.sh
+  483  ls -l
+  484  cd ..
+  485  history > hisfile
+  486  exit
+  487  ls -l
+  488  cd shellscripts
+  489  vi revstring.sh
+  490  echo -n 
+  491  echo -n "hello"
+  492  ls
+  493  vi revstring.sh
+  494  sh revstring.sh
+  495  vi revstring.sh
+  496  sh revstring.sh
+  497  ls -l
+  498  cd shellscripts
+  499  ls
+  500  vi revstring.sh
+  501  sh revstring.sh
+  502  vi revstring.sh
+  503  sh revstring.sh
+  504  cd ..
+  505  cut --help
+  506  ls -l
+  507  cd shellscripts
+  508  ls
+  509  vi revstring.sh
+  510  sh revstring.sh
+  511  vi revstring.sh
+  512  sh revstring.sh
+  513  vi revstring.sh
+  514  sh revstring.sh
+  515  vi revstring.sh
+  516  sh revstring.sh
+  517  vi revstring.sh
+  518  sh revstring.sh
+  519  vi revstring.sh
+  520  sh revstring.sh
+  521  vi revstring.sh
+  522  sh revstring.sh
+  523  vi revstring.sh
+  524  sh revstring.sh
+  525  vi revstring.sh
+  526  sh revstring.sh
+  527  vi revstring.sh
+  528  sh revstring.sh
+  529  vi revstring.sh
+  530  sh revstring.sh
+  531  vi revstring.sh
+  532  echo --help
+  533  cd ..
+  534  echo help
+  535  echo -n hello
+  536  help echo
+  537  cd shellscripts
+  538  vi revstring.sh
+  539  sh revstring.sh
+  540  vi revstring.sh
+  541  cut -c 4
+  542  cut --help
+  543  echo loop | cut -c 4
+  544  echo loop | cut -c 3
+  545  cd ..
+  546  exit
+  547  ls -l
+  548  ls shellscripts
+  549  vi service.sh
+  550  sh service.sh
+  551  vi service.sh
+  552  sh service.sh
+  553  ps --help
+  554  help ps
+  555  info ps
+  556  vi service.sh
+  557  sh service.sh
+  558  vi service.sh
+  559  sh service.sh
+  560  ps -ef
+  561  ls -l
+  562  mv service.sh shellscripts
+  563  ls -l
+  564  ls -l shellscripts
+  565  ls -l shellscripts | awk '(NR>1) {print$(NF-3)}'
+  566  touch fil.txt fol.txt ful.txt fill.txt
+  567  ls -l
+  568  ls
+  569  ls | grep '.txt$'
+  570  echo "fil.text" | awk -F "." '{print$1}'
+  571  vi rename.sh
+  572  sh rename.sh
+  573  ls -l
+  574  ls f*
+  575  vi rename.sh
+  576  ls
+  577  ls txtfile
+  578  cat txtfile
+  579  vi rename.sh
+  580  sh rename.sh
+  581  vi rename.sh
+  582  ls -l
+  583  mv fil.html fil.txt
+  584  mv fill.html fill.txt
+  585  mv ful.html ful.txt
+  586  mv fol.html fol.txt
+  587  ls -l
+  588  cat txtfile
+  589  rm txtfile
+  590  vi rename.sh
+  591  ls -l
+  592  sh rename.sh
+  593  vi rename.sh
+  594  ls -l
+  595  cat txtfile
+  596  sh rename.sh
+  597  ls -l
+  598  cat txtfile
+  599  rm txtfile
+  600  ls -l
+  601  history > hisfile
+  602  history
+  603  ls -l
+  604  mkdir builds
+  605  ls -l shellscripts | wc -l
+  606  cp -r shellscripts builds
+  607  ls -l shellscripts
+  608  ls -l builds
+  609  ls -l builds/shellscripts
+  610  ls -l
+  611  mv builds/shellscripts delete
+  612  cd builds/delete
+  613  cd builds
+  614  ls
+  615  ls builds
+  616  clear
+  617  ls -l
+  618  cd ..
+  619  ls -l
+  620  ls shellscripts
+  621  ls builds
+  622  ls delete
+  623  rmdir builds
+  624  cd delete
+  625  ls -l
+  626  ls -l | wc -l
+  627  touch fil1 fil2 fil3 fil4 fil5 fil6 fil7 fil8 fil9
+  628  ls -l
+  629  ls -lrt
+  630  cd ..
+  631  ls -l
+  632  exit
+  633  ls -l
+  634  cd delete
+  635  ls -l
+  636  ls -l | wc -l
+  637  cd ..
+  638  vi builds.sh
+  639  ls
+  640  cat key
+  641  cat table1
+  642  cat -n table1
+  643  cat table1
+  644  vi builds.sh
+  645  ls -lrt
+  646* 
+  647  ls -l
+  648  cd delete
+  649  ls -lrt
+  650  ls -lrt | awk '(NR>1) {print$NF}' | wc -l
+  651  sh builds.sh
+  652  ls -lrt
+  653  cd ..
+  654  ls -l
+  655  vi builds.sh
+  656  cd delete
+  657  ls -lrt
+  658  sh builds.sh
+  659  ls -a
+  660  cd ..
+  661  ls -a
+  662  ls -l
+  663  cp builds.sh delete
+  664  cd delete
+  665  ls -l
+  666  ls -lrt
+  667  sh builds.sh
+  668  ls -lrt
+  669  ls delfile
+  670  cat delfile
+  671  rm delfile
+  672  ls -lrt
+  673  cd ..
+  674  ls -l
+  675  mv builds.sh shellscripts
+  676  mv rename.sh shellscripts
+  677  ls -l
+  678  history > hisfile

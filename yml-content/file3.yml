@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: change_perm
+      file:
+        path: /home/ubuntu/file1
+        mode: 0777
+        owner: ubuntu
+        group: ubuntu

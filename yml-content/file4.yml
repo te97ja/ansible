@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+    - name: install_pkg
+      apt:
+        name: "{{ item }}"
+        state: latest
+      with_items:
+        - git
+        - wget
+      become: yes

@@ -1,0 +1,15 @@
+---
+- hosts: group1
+  tasks:
+    - name: uninstall
+      apt:
+        name: "{{ item }}"
+        state: absent
+      with_items:
+        - git
+        - wget
+      become: yes
+    - name: copy_ymlfile
+      copy:
+        src: /home/ubuntu/ansible_file1.yml
+        dest: /home/ubuntu
