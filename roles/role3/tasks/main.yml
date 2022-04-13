@@ -1,0 +1,7 @@
+---
+# tasks file for role3
+- name: install vim
+  apt:
+    name: vim
+    state: latest
+  become: yes

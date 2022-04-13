@@ -1,0 +1,6 @@
+---
+# handlers file for sample
+- name: copy_file
+  copy:
+    src: abc.txt
+    dest: /home/ubuntu  

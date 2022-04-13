@@ -1,0 +1,33 @@
+---
+# tasks file for docker
+- name: Install aptitude
+  apt:
+    name: aptitude
+    state: latest
+    update_cache: true
+- name: Install system packages
+  apt:
+    name: "{{ item }}"
+    state: latest
+    update_cache: true
+  with_items:
+    - apt-transport-https
+    - ca-certificates
+    - curl
+    - software-properties-common
+    - python3-pip
+    - virtualenv
+    - python3-setuptools  
+- name: Add Docker GPG apt key
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg 
+- name: Add docker repository
+  apt_repository:
+    repo: deb https://download.docker.com/linux/ubuntu focal stable
+    state: present
+- name: Update apt and install docker-ce
+  apt:
+    name: docker-ce
+- name: Install docker module for python
+  pip:
+    name: docker

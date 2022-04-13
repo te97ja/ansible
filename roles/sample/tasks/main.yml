@@ -1,0 +1,10 @@
+---
+# tasks file for sample
+- name: copy a file 
+  copy:
+    src: abc.txt 
+    dest: /home/ubuntu/
+- name: copying a template 
+  template: 
+    src: templates/abc.j2 
+    dest: /home/ubuntu/

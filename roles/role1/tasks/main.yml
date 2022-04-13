@@ -1,0 +1,7 @@
+---
+# tasks file for role1
+- name: uninstall git
+  apt:
+    name: git
+    state: absent
+  become: yes
