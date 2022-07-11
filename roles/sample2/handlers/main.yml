@@ -1,0 +1,8 @@
+---
+- name: copy handler file
+  copy:
+    src: abc.txt
+    dest: /home/ubuntu/abc_handler.txt  
+
+- name: display
+  debug: var=output.stdout_lines
